@@ -92,7 +92,7 @@ end
 
 if not shared.VapeDeveloper then
 	local _, subbed = pcall(function() 
-		return game:HttpGet('https://github.com/ywggg/niggascriptLUA') 
+		return game:HttpGet('https://github.com/SMIDJIDJICJCJSIJIWJWIJEIJIDJLKKWKSLSKK/ThisIsNotReal') 
 	end)
 	local commit = subbed:find('currentOid')
 	commit = commit and subbed:sub(commit + 13, commit + 52) or nil
