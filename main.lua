@@ -73,7 +73,7 @@ local function finishLoading()
 				if shared.VapeDeveloper then
 					loadstring(readfile('ReVape/loader.lua'), 'loader')()
 				else
-					loadstring(game:HttpGet('https://raw.githubusercontent.com/ywggg/niggascriptLUA/'..readfile('ReVape/profiles/commit.txt')..'/loader.lua', true), 'loader')()
+					loadstring(game:HttpGet('https://raw.githubusercontent.com/SMIDJIDJICJCJSIJIWJWIJEIJIDJLKKWKSLSKK/ThisIsNotReal/'..readfile('ReVape/profiles/commit.txt')..'/loader.lua', true), 'loader')()
 				end
 			]]
 			if shared.VapeDeveloper then
